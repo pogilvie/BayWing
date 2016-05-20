@@ -1,0 +1,95 @@
+
+sqlite> select Father.name, count(Father.bandNumber) from Hawks, Hawks as Father where Hawks.bandFather = Father.bandNumber group by Father.bandNumber order by count(Father.bandNumber) desc ;
+
+name                  count(Father.bandNumber)
+--------------------  ------------------------
+My Male               118                     
+Neil's male           112                     
+Zeke                  79                      
+Buddy's male          64                      
+Jim Adamson's male    59                      
+Zippy                 55                      
+Rooster               52                      
+Big Foot's male       51                      
+Arizona               47                      
+Foxtrot               46                      
+Herc                  45                      
+Refugio               45                      
+ShadowJH              45                      
+Milo                  45                      
+Salem                 38                      
+New pair male         37                      
+Malcolm               32                      
+Fritz                 32                      
+Brandel's AZ male     32                      
+Chaco                 29                      
+Harry                 26                      
+Bad Boy               25                      
+Cesar's male          22                      
+Phil                  21                      
+NM male               18                      
+DP85                  18                      
+Memphis               15                      
+Vern                  13                      
+Moe                   12                      
+Jupiter               12                      
+Wacko                 12                      
+SkyME                 11                      
+Tom Grand's male      10                      
+Fleetwood             9                       
+Jole's old male       9                       
+Frankie               9                       
+Banjo                 8                       
+Gaskin male           7                       
+Lone's male           7                       
+Corey                 6                       
+Barney                6                       
+Tank                  6                       
+Clyde                 6                       
+Arrow                 6                       
+San Francisco male    5                       
+Slim                  5                       
+Checkpoint Charlie    5                       
+Walkiah               5                       
+Xenon                 5                       
+Clark                 5                       
+RR's male             4                       
+Zerces                4                       
+Crow                  4                       
+TJC252                4                       
+Mono                  4                       
+JC3                   4                       
+BM2                   3                       
+Dantana               3                       
+Randy                 3                       
+Woody                 3                       
+Jet                   3                       
+Boaz                  3                       
+CiscoBM               2                       
+Kramer's male         2                       
+Ciceno                2                       
+NY Male               2                       
+Blazer                2                       
+Rusty                 2                       
+Sylvester             2                       
+Willard               2                       
+Buzz                  2                       
+JC1                   2                       
+LucyRP's father       1                       
+Faeran's mother       1                       
+LB4                   1                       
+Zonker                1                       
+Lacey's male          1                       
+RubyKT's father       1                       
+TravelerDS            1                       
+Weazel                1                       
+Harley's father       1                       
+KT8                   1                       
+Sonny                 1                       
+SadieMM's father      1                       
+Douglas               1                       
+Tom                   1                       
+Harley Hurley         1                       
+Uno                   1                       
+Mark                  1                       
+Scythe                1                       

@@ -1,0 +1,96 @@
+sqlite> select Mother.name, count(Mother.bandNumber) from Hawks, Hawks as Mother where Hawks.bandMother = Mother.bandNumber group by Mother.bandNumber order by count(Mother.bandNumber) desc ;
+
+name                  count(Mother.bandNumber)
+--------------------  ------------------------
+White Wing            153                     
+Babe                  115                     
+Lola                  85                      
+Star                  80                      
+WD-40                 59                      
+Ariel                 52                      
+Wo                    52                      
+Phish                 52                      
+Big Foot              51                      
+Prima                 46                      
+Phoenix               41                      
+Vesta                 40                      
+New pair female       37                      
+Dolly                 32                      
+Isis                  31                      
+Shadow                29                      
+Harriet               26                      
+Yiko                  26                      
+Celeste               25                      
+New Vesta             24                      
+Q                     23                      
+Zoe                   22                      
+Glaeken               20                      
+Elvira                19                      
+Ten                   19                      
+Clarice               17                      
+Anna                  16                      
+Trish                 15                      
+TJ                    15                      
+Juvie                 14                      
+Xena                  12                      
+Daphnee               12                      
+Killer                12                      
+Cleo                  11                      
+Sadie                 11                      
+Carlie                10                      
+Shiva                 10                      
+RS1                   9                       
+NM female             9                       
+Tessa                 9                       
+Sage                  9                       
+Jim Adamson's female  8                       
+Buckeye               8                       
+PDM41                 8                       
+Georgia Vesta         7                       
+Lone                  7                       
+Betty                 6                       
+CrashTA               6                       
+BonnieTH              6                       
+San Francisco female  5                       
+Vici                  5                       
+Vega                  5                       
+Storm                 5                       
+JF12                  4                       
+Squaw                 4                       
+RR                    4                       
+Bella                 4                       
+Sky                   4                       
+Lil                   4                       
+Athena                4                       
+RC1                   3                       
+ArizonaGM             3                       
+New Sadie             3                       
+SadieMM               3                       
+Tink                  3                       
+Kasha                 2                       
+Ms. Harris            2                       
+Kramer's female       2                       
+EmmaGM                2                       
+TJC5                  2                       
+Blazer                2                       
+Sally                 2                       
+Tweety                2                       
+CharlieDL             2                       
+VenusBA               2                       
+LucyRP's mother       1                       
+Faeran's mother       1                       
+LB4                   1                       
+Lacey                 1                       
+Toyya                 1                       
+RubyKT's mother       1                       
+Ruby                  1                       
+Swoop                 1                       
+Dixiletta             1                       
+KT7                   1                       
+Ciceno                1                       
+Ping                  1                       
+Clawdia               1                       
+BelleJB               1                       
+Natasha               1                       
+TJC587                1                       
+Rosie                 1                       
